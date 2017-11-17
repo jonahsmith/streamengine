@@ -38,4 +38,4 @@ The `-port` flag can be used to specify the port on which `streamengine` serves.
 
 ## How does this differ from `websocketd`?
 
-[`websocketd`](https://github.com/joewalnes/websocketd) is awesome, but it forks a new process for each WebSocket connection. This is useful for bidirectional communication, but is not a great fit when streaming from necessarily unitary source of data in applications that do not require browser-to-server communication.
+[`websocketd`](https://github.com/joewalnes/websocketd) is awesome, but it forks a new process for each WebSocket connection. This is useful for bidirectional communication, but is not a great fit when streaming from a necessarily unitary source of data in situations that do not require browser-to-server communication.
